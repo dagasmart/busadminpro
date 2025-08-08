@@ -1,0 +1,33 @@
+{
+    "name": "biz/party",
+    "alias": "党务管理",
+    "description": "党务工作管理",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["bizadmin", "extension"],
+    "homepage": "https://github.com/biz/party",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Administrator",
+            "email": "dagasmart@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "dagasmart/bizadmin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Biz\\Party\\": "src/"
+        }
+    },
+    "extra": {
+        "bizadmin": "Biz\\Party\\PartyServiceProvider",
+        "laravel": {
+            "providers": [
+                "Biz\\Party\\PartyServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "biz/erps",
+    "alias": "进销存系统",
+    "description": "erp进销存系统",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["bizadmin", "extension"],
+    "homepage": "https://github.com/biz/erps",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Administrator",
+            "email": "raoxikui@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "dagasmart/bizadmin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Biz\\Erps\\": "src/"
+        }
+    },
+    "extra": {
+        "bizadmin": "Biz\\Erps\\ErpsServiceProvider",
+        "laravel": {
+            "providers": [
+                "Biz\\Erps\\ErpsServiceProvider"
+            ]
+        }
+    }
+}

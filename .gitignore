@@ -1,0 +1,11 @@
+/config/pay.php
+/data/cert/wxpay
+/data/cert/alipay
+/data/cert/unipay
+/public/extensions
+/public/command
+/database/laravel_bizadmin.sql
+/database/pg_20250424160524.nb3
+/public/admin-assets
+/public/build
+/public/storage
